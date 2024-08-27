@@ -247,7 +247,7 @@ __New HTML to add__
 
 ```<h1 id="dynamic-content"></h1>```
 
-This needs to be added before the <h1> that includes the text “We provide the best strategy to grow up your business”.
+This needs to be added before the `<h1>` that includes the text “We provide the best strategy to grow up your business”.
 
 __index.html__
 
