@@ -8,7 +8,7 @@ services:
     networks:
       - softy-pinko-network
     deploy:
-      replicas: 2
+      replicas: 3
 
   front-end:
     build:
@@ -24,7 +24,7 @@ services:
       context: ./proxy
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "80:80"
     depends_on:
       - front-end
       - back-end
